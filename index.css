@@ -6,22 +6,20 @@ padding:0
  
 
 html {height:100% }
-body {font-family: 'Merriweather', serif;serif;
+body {font-family: "Public Sans", sans-serif;
 font-size: 1.2rem;
 min-height: 100%;
 }
 
 .grid-container> *{
-background-color: rgb(255, 255, 255); 
+background-color: rgb(147, 64, 13); 
   
 box-shadow: -1px 1px 7px 0px rgb(47, 47, 144) ;
 border-radius: 11px;
 padding: 10px;
-text-align: 10px;
-
+text-align: 10px; 
 
 }
-
 
 .grid-container{display: grid; gap: 10px;
 grid-template-areas: 
@@ -39,11 +37,11 @@ grid-template-areas:
 /*.header{grid-area: header; background-image: url(imagenes/papelocre.png); color:rgb(241, 241, 240);font-size: 2rem; text-align: center;}*/
 .header{grid-area: header; background-image: url(imagenes/barritas.png) ;background-size:100% ;color:rgb(245, 245, 240);font-size: 2rem; text-align: center;}
 .bio{grid-area: bio;
-    background-color:rgb(200, 200, 200)}
+    background-color:rgb(243, 237, 237)}
 .main{grid-area: main; background-image: url(imagenes/malla.png); background-size: 100%; color:white } 
    
    /* background-color:rgb(255, 255, 255)*/
-.sidebar{grid-area: sidebar;background-color: rgb(200, 200, 200);}  
+.sidebar{grid-area: sidebar;background-color: beige;}  
                
 .footer{grid-area: footer;
     background-color:rgb(167, 188, 63)}   
@@ -53,11 +51,11 @@ grid-template-areas:
 
         grid-template:
 
-        "header  header" 100px
-        "bio  bio"  200px
-        "sidebar  main"   auto 
-        "footer   footer" 100px
-         / 350px auto;
+        "header header" 100px
+        "bio bio" auto
+        "sidebar main"  auto
+        "footer  footer" 100px/
+        200px auto
     }
     .main{
         background-color:rgb(240, 240, 240)}
