@@ -7,9 +7,14 @@ padding:0
 
 html {height:100% }
 body {font-family: 'Crimson Pro', serif "Public Sans", sans-serif;
-font-size: 1.2rem;
+font-size: 1rem;
 min-height: 100%;
 }
+
+#foto4x4{margin:1rem; size:100%}
+.bio{margin: 1rem}
+.datosp {color:lightblue; font-size: 1.2rem; }
+.datospp {color:lightblue; f:ont-size 1.1rem; }
 
 .grid-container> *{
 background-color: rgb(147, 64, 13); 
@@ -20,6 +25,7 @@ padding: 10px;
 text-align: 10px; 
 
 }
+.sidebar{padding:5%}
 
 .grid-container{display: grid; gap: 10px;
 grid-template-areas: 
@@ -33,6 +39,7 @@ grid-template-areas:
 "footer"
 
 }
+
 
 /*.header{grid-area: header; background-image: url(imagenes/papelocre.png); color:rgb(241, 241, 240);font-size: 2rem; text-align: center;}*/
 .header{grid-area: header; background-image: url(imagenes/barritas.png) ;background-size:100% ;color:rgb(245, 245, 240);font-size: 2rem; text-align: center;}
@@ -49,6 +56,7 @@ grid-template-areas:
     .main{background-image: url(imagenes/escritoriooscuro.png); background-size: 100%; opacity: .7; color:white}
     .grid-container{
 
+       
         grid-template:
 
         "header header" 100px
@@ -57,11 +65,13 @@ grid-template-areas:
         "footer  footer" 100px/
         200px auto
     }
+    .header{color:lightblue}
     .main{
         background-color:rgb(240, 240, 240)}
 }       
 
 @media (min-width: 900px)  {
+    .header{color:lightblue}
     .grid-container{
 
         grid-template:
