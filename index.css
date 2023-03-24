@@ -7,10 +7,10 @@ padding:0
 
 html {height:100% }
 body {font-family: 'Crimson Pro', serif "Public Sans", sans-serif;
-font-size: 1rem;
+font-size: 1.15rem;
 min-height: 100%;
 }
-
+#botonPdf{font-size: 1rem ; padding: 40%, auto,40%,30px }
 #foto4x4{margin:1rem; size:100%}
 .bio{margin: 1rem}
 .datosp {color:lightblue; font-size: 1.2rem; }
