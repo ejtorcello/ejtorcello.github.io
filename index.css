@@ -10,12 +10,14 @@ body {font-family: 'Crimson Pro', serif "Public Sans", sans-serif;
 font-size: 1.15rem;
 min-height: 100%;
 }
-#botonPdf{font-size: 1rem ;  }
+#botonPdf{font-size: 1rem ; margin-left: 7rem  }
 #foto4x4{margin:1rem; size:100%}
 .bio{margin: 1rem}
 .datosp {color:lightblue; font-size: 1.2rem; }
 .datospp {color:lightblue; f:ont-size 1.1rem; }
 .datospp {text-decoration-line: underline}
+#fei{margin-top:1rem}
+#linked{margin-top:1rem}
 
 .grid-container> *{
 background-color: rgb(147, 64, 13); 
