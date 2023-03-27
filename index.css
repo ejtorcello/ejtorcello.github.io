@@ -15,6 +15,7 @@ min-height: 100%;
 .bio{margin: 1rem}
 .datosp {color:lightblue; font-size: 1.2rem; }
 .datospp {color:lightblue; f:ont-size 1.1rem; }
+.datospp {text-decoration-line: underline}
 
 .grid-container> *{
 background-color: rgb(147, 64, 13); 

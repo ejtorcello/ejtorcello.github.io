@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function(){
     // Escuchamos el click del botón
     const boton = document.getElementById("botonPdf");
     boton.addEventListener("click", () => {
+        
         const $elementoParaConvertir = document.body; // <-- Aquí puedes elegir cualquier elemento del DOM
         html2pdf()
             .set({
