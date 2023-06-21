@@ -1,0 +1,65 @@
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+/***************navBar*************/
+.navbar-toggler{
+   border-color: white;
+    
+}
+
+.navbar {
+   height: 80px;
+ }
+ 
+ /***************imgHeader*************/
+ .overlay {
+   position: relative;
+ }
+ 
+ .overlay::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.63); 
+   opacity: 1; 
+ } 
+
+ .btn{
+   width: 200px;
+ }
+
+ @media (max-width: 991.98px) {
+   .image-container {
+     margin-top: 56px;
+     
+   }
+   .img-fluid{
+      height: 600px;
+   }
+ }
+ 
+
+ .dotted-underline {
+  border-bottom: 1px dotted;
+}
+
+
+.footer{
+  background-color: rgb(50, 50, 126);
+  height: 80px;
+  padding-top: 30px;
+  
+}
+
+
+
+
+
+
+ 

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAC Integrador</title>
+    <link href="FrontEndCAC_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="FrontEndCAC_files/estilos.css">
+  </head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+    <div class="container-fluid ">
+      <a href="#" class="ms-5">
+        <img src="FrontEndCAC_files/codoacodo.png" alt="" width="120" height="80">
+      </a>
+      <a class="navbar-brand text-light fs-4" href="#">Conf Bs As</a>
+      <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end bg-dark" id="navbarSupportedContent">
+        <ul class="nav ">
+          <li class="nav-item">
+            <a class="nav-link text-light " href="#Conf">La conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary " href="#Oradores">Los oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary " href="#lugarFecha">El lugar y la fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary " href="#convierteteOrador">Conviértete en orador</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link text-success " href="#">Comprar tickets</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="image-container overlay position-relative " id="Conf">
+    <img src="FrontEndCAC_files/ba1.jpg" class="img-fluid " alt="...">
+    <div class="position-absolute w-50 top-0 end-0 bottom-0 ms-5 d-flex flex-column justify-content-center text-end me-5">
+      <h1 class="text-light me-5">Conf Bs As</h1>
+      <p class="text-light me-5 small">Bs As llega por primera vez a 
+Argentina. Un evento para compartir con nuestra comunidad el 
+conocimiento y experiencia de los expertos que están creando el futuro 
+de internet. Ven a conocer a miembros del evento, a otros estudiantes de
+ Codo a Codo y los oradores de primer nivel que tenemos para ti. Te 
+esperamos!</p>
+      <div class="d-flex justify-content-end mt-3">
+        <button class="btn btn-outline-light me-2">Quiero ser orador</button>
+        <a class="btn btn-success me-5" href="ComprarTickets.htm" role="button">Comprar tickets</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container-fluid" id="losOradores">
+  <div class="container text-center mt-3">
+  <p class="mb-0">CONOCE A LOS</p>
+  <h2>ORADORES</h2>
+  </div>
+  <div class="container w-75 mb-5">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="FrontEndCAC_files/steve.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="d-flex">
+            <div class="rounded bg-warning ps-2 pe-2 me-2"><b>JavaScript</b></div>
+            <div class="rounded bg-info ps-2 pe-2 text-light"><b>React</b></div>
+          </div>
+          <h5 class="card-title mt-1">Steve Jobs</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur 
+adipisicing elit. Autem ut non ex, dolores voluptates hic neque illum 
+eius? Aliquam laboriosam deleniti exercitationem minus impedit assumenda
+ repellat modi vero ipsam in?</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="FrontEndCAC_files/bill.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="d-flex">
+            <div class="rounded bg-warning ps-2 pe-2 me-2"><b>JavaScript</b></div>
+            <div class="rounded bg-info ps-2 pe-2 text-light"><b>React</b></div>
+          </div>
+          <h5 class="card-title mt-1">Bill Gates</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur 
+adipisicing elit. Autem ut non ex, dolores voluptates hic neque illum 
+eius? Aliquam laboriosam deleniti exercitationem minus impedit assumenda
+ repellat modi vero ipsam in?</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="FrontEndCAC_files/ada.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="d-flex">
+            <div class="rounded ps-2 pe-2 me-2 text-light bg-dark"><b>Negocios</b></div>
+            <div class="rounded  ps-2 pe-2 text-light bg-danger"><b>Startups</b></div>
+          </div>
+          <h5 class="card-title mt-1">Ada Lovelace</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur 
+adipisicing elit. Autem ut non ex, dolores voluptates hic neque illum 
+eius? Aliquam laboriosam deleniti exercitationem minus impedit assumenda
+ repellat modi vero ipsam in?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="lugarFecha">
+  <div class="row ">
+    <div class="col-6 p-0">
+      <img src="FrontEndCAC_files/honolulu.jpg" class="img-fluid" alt="...">
+    </div>
+    <div class="col-6 p-0">
+      <div class="bg-dark h-100">
+        <h2 class="text-light ps-4 pt-3">Bs As - Octubre</h2>
+        <p class="text-light  ps-4 text-ms">
+          Buenos Aires es la provincia y localidad más grande del estado
+ de Argentina, en los Estados Unidos.
+          Honolulu es la más sureña de entre las principales ciudades 
+estadounidenses. Aunque el nombre de Honolulu se refiere al área
+          urbana en la costa sureste de la isla de Oahu, la ciudad y el 
+condado de Honolulu han formado una ciudad-condado consolidada
+          que cubre toda la ciudad (aproximadamente 600 km<sup>2</sup> de 
+superficie).
+        </p>
+        <button class="btn btn-outline-light m-4 mt-0 ">Conocé más</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid mb-3" id="convierteteOrador">
+  <div class="container text-center mt-3">
+    <p class="mb-0 small">CONVIÉRTETE EN UN</p>
+    <h2> ORADOR</h2>
+  </div>
+  <div class="container text-center mt-3 ">
+    <p>Anótate como orador para dar una <a href="#"><span class="dotted-underline"> charla ignite</span></a>. Cuéntanos de qué quieres hablar!</p>
+    <form class="w-75 mx-auto p-0">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+          </div>
+        </div>
+      </div>
+      <div class="form-group mt-3">
+        <textarea class="form-control" id="comentario" rows="3" placeholder=" Sobre qué quieres hablar?"></textarea>
+      </div>
+      <p class="text-start">Recuerda incluir un titulo para tu charla</p>
+      <button type="submit" class="btn btn-success w-100">Enviar</button>
+    </form>
+  </div>
+</div>
+
+<footer class="footer text-center">
+  <a href="" class="text-light m-4 ">Preguntas frecuentes</a>
+  <a href="" class="text-light m-4">Contáctanos</a>
+  <a href="" class="text-light m-4">Prensa</a>
+  <a href="" class="text-light m-4">Conferencias</a>
+  <a href="" class="text-light m-4">Términos y condiciones</a>
+  <a href="" class="text-light m-4">Privacidad</a>
+  <a href="" class="text-light m-4">Estudiantes</a>
+</footer>
+    
+      
+    
+      <script src="FrontEndCAC_files/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body></html>
